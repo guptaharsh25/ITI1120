@@ -1,0 +1,395 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 TrebuchetMS;\f1\fnil\fcharset0 Monaco;\f2\froman\fcharset0 Times-Roman;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red251\green0\blue7;\red0\green0\blue0;
+\red133\green0\blue175;\red0\green0\blue0;\red255\green255\blue255;\red210\green0\blue53;\red217\green11\blue0;
+\red85\green142\blue40;\red102\green156\blue53;\red252\green79\blue8;\red102\green177\blue50;\red50\green51\blue51;
+\red15\green112\blue1;\red0\green0\blue255;}
+{\*\expandedcolortbl;;\csgenericrgb\c14902\c14902\c14902;\csgenericrgb\c98431\c0\c2745;\csgenericrgb\c0\c0\c0;
+\csgenericrgb\c52157\c0\c68627;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\csgenericrgb\c82353\c0\c20784;\csgenericrgb\c85098\c4314\c0;
+\csgenericrgb\c33333\c55686\c15686;\csgenericrgb\c40000\c61176\c20784;\csgenericrgb\c98824\c30980\c3137;\csgenericrgb\c40000\c69412\c19608;\csgenericrgb\c19608\c20000\c20000;
+\csgenericrgb\c5882\c43922\c392;\csgenericrgb\c0\c0\c100000;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid201\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww23880\viewh13200\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs36 \cf2 \expnd0\expndtw0\kerning0
+ASSIGNMENT 1\
+\
+Read the instructions below carefully. The instructions must be followed.\'a0This assignment is worth 5% of your grade. The assignment is due on \cf3 \'a0Monday 2nd of October 8AM\cf2 . No late assignments will be accepted.\
+This is an individual assignment. Please review the Plagiarism and Academic Integrity policy presented in the first class, i.e. read in detail pages 15-19 of course outline (ITI1120-course-outline-syllabus-Fall2017.pdf). You can find that file on Brightspace under Course Information. While at it, also review Course Policies on pages 13 and 14.\
+\
+The goal of this assignment is to learn and practice (via programming) the concepts that we have learned so far: numbers, algebraic expressions, boolean expressions, strings, operations on strings, type conversion, variables, use of Python's builtin functions including input and output functions, designing your own functions, documenting your own functions via docstrings, and testing your functions. Before you can start this assignment, you need to know how to use a (IDLE's) text editor to edit python modules (i.e. files) as well as how to use python shell interactively to test your code. If you have no idea how to do these things watching video of the 3rd lecture, for example, will help.\'a0Submit your\'a0assignment by the deadline via Brightspace\'a0(as instructed and practiced in the first lab.) You can make multiple submissions, but only 
+\b the last submission before the deadline
+\b0  will be graded. What needs to be submitted is explained next.\cf0 \
+\
+The assignment has 14 programming questions (in Section 1 below). \cf2 Each question asks you to design\'a0one function. Put all these functions (for all the questions below) in \cf3 ONE\cf2  file only, called \cf3 a1_xxxxxx.py\cf2  (where xxxxxx is replaced with your student number).\'a0Within this file, \cf3 a1_xxxxxx.py\cf2 , separate your answers (i.e. code) to each question with a comment that looks like this:\cf0 \
+\cf2 ###################################################################\uc0\u8232  # Question X\u8232  ###################################################################\
+To have an idea on what this file \cf3 a1_xxxxxx.py\cf2 \'a0should look like, I included with this assignment a solution to an\'a0nonexistent\'a0assignment. You can view this mockup solution by opening the included file called\'a0a1_mockup_assignment_solution.py\cf0 \
+\cf2 In addition to\'a0\cf3 a1_xxxxxx.py\cf2 \'a0you must submit a separate file called\'a0\cf3 a1_xxxxxx.txt.\cf2 \'a0What should be in that file is explained below. Thus for assignment 1\'a0you have to  
+\b SUBMIT TWO FILES
+\b0 :\'a0\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+a1_xxxxxx.py \cf2 and\cf3 \'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf3 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+a1_xxxxxx.txt.\cf2 \'a0\
+\pard\pardeftab720\partightenfactor0
+\cf2 as instructed in lab 1. Submit your assignment by the deadline via Brightspace\'a0(\cf3 as instructed in the first lab.\cf2 )\'a0\
+\cf0 \
+\cf2 Your program must run without syntax\'a0errors. In particular, when grading your assignment, TAs will first open your file \cf3 a1_xxxxxx.py \cf4 with IDLE and press Run Module. If pressing Run Module causes any syntax error, \cf5 the grade for the whole assignment will be zero.\cf2 \
+\
+Furthermore, for each of the functions below, I have provided one or two tests to test your functions with. For example, you should test question 1 by making function call\'a0
+\f1\fs28 \cf0 \kerning1\expnd0\expndtw0 mh2kh(5)
+\f0\fs36 \expnd0\expndtw0\kerning0
+\'a0\cf2 in the Python shell. To obtain a partial mark your function may not necessarily give the correct answer on these tests. But if your function gives any kind of python error when run on the tests provided below, that question will be marked with zero points.\'a0\
+\cf0 \
+\cf2 After reading each of these questions once, go to the Section 2: \'93Testing your code" below and see what the output of your function should give. In that section, you can find a couple of function calls and the required results for each question. Studying these example function calls will help you a lot to understand what each individual question requires, or rather what its function should do.\cf0 \
+\cf2 To determine your grade, your functions will be tested both with examples provided in Section 2: "Testing your code" and with some other examples.\'a0Thus you too should test your functions with more example than what I provided in Section 2.\
+\cf0 \
+Each function has to be documented with docstrings (as will be explained in Lecture 5 on Sept 20). In particular, each function has to have\cf6 \cb7  docstrings that specify:\cb1 \uc0\u8232 \cb7 - type contract\cb1 \uc0\u8232 \cb7 - description about what the function does (while mentioning parameter names) \cb1 \
+\pard\pardeftab720\sl320\sa240\partightenfactor0
+\cf6 \cb7 - preconditions, if any\cf0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+The purpose of this assignment is to practice concepts that you have seen in the first 2.5 weeks of class. \cf2 Thus this assignment does not require use of loops, if and other branching statements, lists ... etc, except for  question 12 (and Question 10 if you want to be creative).  Thus you must solve the questions below without loops, if and other branching statements, lists etc \'85  unless  explicitly stated otherwise in the question. Question that break this rule will receive zero since they suggest that the required understanding of the material covered in first 2.5 weeks is not attained.   \
+\cf0 \
+In addition to docstrings, Lecture 5, on Sept 20, will cover compound boolean expressions (i.e boolean expressions that use and, or and not boolean operators). They will be needed for some questions  Finally, we will also cover if statements, in Lecture 5. They will only be needed in question 12.\
+\
+Global variables are not allowed. If you do not know what that means, for now, interpret this to mean that inside of \cf2 your file \cf3 a1_xxxxxx.py \cf4 variables can only be created (ie. assigned value) inside of the bodies of your functions.\
+\
+To avoid confusion, unless otherwise specified in the questions here is what you can use in this assignment:\
+- comparison operators: <,<=, ==, !=, >, >=\
+- Boolean operators: and, or, not\
+- arithmetic operators: +, -, *, /, **, %, //\
+- the following Python built in functions: print, input, round, len, int, float, str\
+- string operators: +, *\
+- any function from the math module (recall import math, dir(math), and then you can call help on any function in math module. eg. help(math.sqrt) )\
+- anything from Turtle module\
+- keywords: def, return \
+- if statements (only in question 12 and possibly question 10)\
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\b\fs48 \cf2 Section 1: Assignment 1 questions
+\fs36 \
+\pard\pardeftab720\partightenfactor0
+
+\b0 \cf0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qj\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	1.	}\expnd0\expndtw0\kerning0
+(2 points) \kerning1\expnd0\expndtw0 Write a function \cf8 \expnd0\expndtw0\kerning0
+mh2kh(s)\cf2 \kerning1\expnd0\expndtw0  that given the speed, \cf8 \expnd0\expndtw0\kerning0
+s\cf2 \kerning1\expnd0\expndtw0 , expressed in miles/hour 
+\b returns
+\b0  the same speed expressed in kilometres/hour.\
+{\listtext	2.	}\expnd0\expndtw0\kerning0
+(2 points) Two numbers \cf8 a \cf2 and \cf9 b\cf2  are called \cf10 pythagorean pair\cf2  if both \cf9 a\cf2  and \cf9 b\cf2  are integers and there exists an integer \cf9 c\cf2  such that \cf11 \kerning1\expnd0\expndtw0 a\super 2\nosupersub  + b\super 2\nosupersub  = c\super 2\cf2 \expnd0\expndtw0\kerning0
+\nosupersub . Write a function\'a0\cf8 pythagorean_pair(a,b)\cf2 \'a0that takes two integers \cf8 a \cf2 and \cf9 b\cf2  as input and 
+\b returns
+\b0  \cf12 True\cf2  if \cf8 a \cf2 and \cf9 b\cf2  are pythagorean pair and \cf12 False \cf2 otherwise.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3.	}\expnd0\expndtw0\kerning0
+(2 points) Write a function\'a0\cf8 in_out(xs,ys,side) \cf2 that takes three numbers as input, where \cf8 side \cf6 is non-negative. Here \cf8 xs \cf6 and \cf8 ys \cf6 represent the x and y coordinates of the bottom left corner of a square; and \cf8 side \cf6 represents the length of the side of the square. (Notice that \cf8 xs, ys, \cf6 and \cf8 side\cf6  completely define a square and its position in the plane). Your function should first prompt the user to enter two numbers that represent the x and y coordinates of some query point. Your function should 
+\b print
+\b0  \cf12 True \cf6 if the given query point is inside of the given square, otherwise it should print \cf12 False.\cf6  A point on the boundary of a square is considered to be inside the square.
+\f2\fs24 \
+\ls3\ilvl0
+\f0\fs36 \cf2 \kerning1\expnd0\expndtw0 {\listtext	4.	}\expnd0\expndtw0\kerning0
+(2 points)\'a0Write a function\'a0\cf8 safe(n) \cf6 that takes a non-negative integer \cf8 n\cf6  as input where \cf8 n\cf6  has at most 2 digits. The function determines if \cf8 n\cf6  is a safe number. A number is 
+\i not safe
+\i0  if it contains a 9 as a digit, or if it can be divided by 9. The function should test if \cf8 n\cf6  is safe and return \cf12 True \cf4 if\cf12  \cf8 n \cf4 is safe and\cf8  \cf12 False \cf4 otherwise.\cf6 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qj\partightenfactor0
+\ls3\ilvl0\cf6 \kerning1\expnd0\expndtw0 {\listtext	5.	}\expnd0\expndtw0\kerning0
+a string stating the result of the test, either \'93The number is safe\'94, or \'93The number is not safe\'94. \cf2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qj\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	6.	}\expnd0\expndtw0\kerning0
+(2 points)\'a0Write a function\'a0\cf8 quote_maker(quote, name, year)\cf2 \'a0that returns a sentence, i.e. a string of the following form: \cf4 In\cf8  year\cf4 , a person called \cf8 name \cf4 said: \'93\cf8 quote\cf4 .\'94 See the next Section 2 below for some examples of how your function must behave.\
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	7.	}\expnd0\expndtw0\kerning0
+(2 points)\'a0Write a function\'a0\cf8 quote_displayer()\cf2 \'a0that prompts the user for a quote, name, and year. The function should then print a sentence using the same format as specified in the previous question.\'a0\'a0(To do that, your solution must make a call to\'a0\cf8 quote_maker \cf2 function from the previous question to obtain a string that you then print).\kerning1\expnd0\expndtw0 \
+{\listtext	8.	}\expnd0\expndtw0\kerning0
+(2 points)  In this question you will write a function that determines the result of a rock, paper, scissors game given choices of player 1 and player 2. In particular, write a function \cf8 rps_winner() \cf2 that prompts the user for choice of player 1 and then choice of player 2, and then it displays the result for player 1 as indicated in the examples given in Section 2. You may assume that the user will only enter words: rock, paper or scissors in lower case. Recall that paper beats rock, that rock beats scissors and that scissors beat paper. If both players make the same choice, we have a draw.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	9.	}\expnd0\expndtw0\kerning0
+(2 points) \kerning1\expnd0\expndtw0 Write a function \cf8 \expnd0\expndtw0\kerning0
+fun(x)\cf2 \kerning1\expnd0\expndtw0  that takes as input a positive number \cf8 \expnd0\expndtw0\kerning0
+x\cf2 \kerning1\expnd0\expndtw0  and solves the following equation for y and returns y. The equation is \cf13 10\super 4y\nosupersub =x+3\cf14 . 
+\f3\fs29\fsmilli14667 \cf6 \expnd0\expndtw0\kerning0
+\
+\ls3\ilvl0
+\f0\fs36 \cf2 \kerning1\expnd0\expndtw0 {\listtext	10.	}\expnd0\expndtw0\kerning0
+(2 points) \cf6 \cb7 Write a function \cf8 \cb1 ascii_name_plaque(name) \cf6 \cb7 that takes as input a string representing a person\'92s name and draws (using print function) a name plaque as shown in the examples given in Section 2 below. Recall that you may not use loops nor if/branching statements. (Question 10 and 12 are the only exceptions to that rule.)\cf2 \cb1 \kerning1\expnd0\expndtw0 \
+{\listtext	11.	}\expnd0\expndtw0\kerning0
+(2 points)  \kerning1\expnd0\expndtw0 Write a function \cf8 \expnd0\expndtw0\kerning0
+draw_bike() \cf2 \kerning1\expnd0\expndtw0 that draws with Turtle graphics the bike from the image at the link given at the end of this question. If you are imaginative, you may choose to draw a more complex drawing of a bike or instead of function \cf4 \expnd0\expndtw0\kerning0
+draw_bike()\cf2 \kerning1\expnd0\expndtw0  write a function \cf8 \expnd0\expndtw0\kerning0
+my_fun_drawing()\cf2 \kerning1\expnd0\expndtw0  that draws something else fun. Whatever you choose it should not be simpler than the bike on this image: {\field{\*\fldinst{HYPERLINK "https://i0.wp.com/www.juniorcardesigner.com/wp-content/uploads/2013/11/JCD-Very-Easy-Car-To-Draw-For-kids-6.jpg"}}{\fldrslt http://apprize.info/programming/basic/basic.files/image033.jpg}} In this questions you can use loops and/or if statements if you want to draw something more complex.\
+{\listtext	12.	}\expnd0\expndtw0\kerning0
+(2 points) Write a function \cf8 alogical(n) \cf2 , that takes as input a number, \cf8 n\cf2 , where \cf8 n\cf2  is bigger or equal to 1, and returns the minimum number of times that \cf8 n\cf2  needs to be divided by 2 in order to get a number equal or smaller than 1. For example 5.4/2=2.7. Since 2.7 is bigger than 1, dividing 5.4 once by 2 is not enough, so we continue. 2.7/2=1.35 thus dividing 5.4 twice by 2 is not enough since 1.35 is bigger than 1. So we continue. 1.35/2=0.675. Since  0.675 is less than 1, the answer is 3. In particular, these calculations determine that 5.4 needs to be divided by 2 three times minimum in order to get a number that is less than or equal to 1. See Section 2 for more examples. \cf6 \cb7 Recall that you may not use loops nor if/branching statements. (Question 10 and 12 are the only exceptions to that rule.)\cf2 \cb1 \kerning1\expnd0\expndtw0 \
+{\listtext	13.	}\expnd0\expndtw0\kerning0
+(5 points) \cf6 \cb7 Write a fancy time formatter, \cf8 \cb1 time_formater(h,m)\cf6 \cb7 , that takes a time of day, expressed in hours, \cf9 \cb1 h\cf6 \cb7  (integer 0 to 23) and minutes, \cf9 \cb1 m\cf6 \cb7  (integer 0 to 59). The function first rounds the minutes to the nearest 5 minutes, and then returns the time as descriptive string. In particular, after rounding the minutes, the string has to be such that it uses \'93o\'92clock\'94 and \'93half past\'94 for 0 and 30 minutes, respectively. For less than 30 minutes, it has to use \'93past\'94 format and for more than 30 minute it has to use \'93to\'94 format. See the examples in Section 2 for clarification and examples on how your function must behave. Your code for rounding minutes to the nearest 5 minutes should not take more than ONE line of code. You may use if statements in this question.\cf2 \cb1 \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	14.	}\expnd0\expndtw0\kerning0
+(2 points) Write a function\'a0\cf8 cad_cashier(price,payment) \cf2 that takes two real non-negative numbers with two decimal places as input, where \cf8 payment>=price \cf4 and where the second decimal in\cf8  payment \cf4 is 0 or 5\cf2 . They represent a price and payment in Canadian dollars. The function should return a real number with 2 decimal places representing the change the customer should get in Canadian dollars. Recall that in Canada, while the prices are expressed in pennies, the change is based on rounding to the closest 5 cents.  \cf6 \cb7 See the examples in Section 2 for clarification and examples on how your function must behave.\cf2 \cb1  \
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	15.	}\expnd0\expndtw0\kerning0
+(5 points)\'a0Suppose that a cashier in Canada owes a customer some change and that the cashier only has coins ie. toonies, loonies, quarters, dimes, and nickels. Write a function that determines the minimum number of coins that the cashier can return. In particular, write a\'a0function\'a0\cf8 min_CAD_coins(price,payment)\cf2 \'a0that returns five numbers (t,l,q,d,n) that represent the smallest number of coins (toonies, loonies, quarters, dimes, and nickels) that add up to the\'a0amount owed to the customer (here \cf8 price \cf4 and\cf8  payment \cf4 are defined as in the previous question)\cf2 .\'a0\'a0You program must first call \cf8 cad_cashier \cf4 function, from question 13, to determine the amount of change that needs to be returned. \cf2 Then \'a0before doing anything else, you may want to convert this amount\'a0entirely to cents (that should be of type\'a0\cf15 int\cf2 ). \'a0Once you have the total number of cents here are some hints on how to find the minimum number of coins. \'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qj\partightenfactor0
+\ls3\ilvl0\cf16 \kerning1\expnd0\expndtw0 {\listtext	16.	}\expnd0\expndtw0\kerning0
+Hints for your solution (algorithm) for question 14:\cf0 \
+\pard\tx566\pardeftab720\qj\partightenfactor0
+\cf2 To find the minimum number of coins the, so called, 
+\i greedy strategy
+\i0  (i.e. 
+\i greedy algorithm
+\i0 \cf4 )\cf2  works for this problem. The greedy strategy tries the maximum possible number of the biggest-valued coins first, and then the 2nd biggest and so on. For example, if price is $14.22 and payment $20, the customer is owed $5.80 (after rounding to closest 5 cents), thus 580 cents, the greedy strategy will first figure the maximum number of toonies it can give to the customer. In this case, it would be 2 toonies. It cannot be 3 toonies as that equals $6 and the cashier would return too much money. Once the cashier returns 2 toonies, he/she still needs to return 180 cents. The next biggest coin after toonie is a loonie. So the greedy strategy would try loonies next. Only 1 loonie can fit in 180 cents, so the cashier should next return 1 loonie. Then there is 80 cents left. The next biggest coin to consider is a quarter \'85 and so on \'85 ending with nickels. (For this example the function should return (2,1,3,0,1) ). Thus for this question, you are asked to implement this strategy to find the optimal solution. See section 2 for more examples.\cf0 \
+
+\i \cf2 \
+Side note:
+\i0  in the Canada (and most other) coin systems, the greedy algorithm of picking the largest denomination of coin which is not greater than the remaining amount to be made will always produce the optimal result (i.e. give the smallest number of coins). This is not automatically the case, though: if the coin denominations were 1, 3 and 4 cents then to make 6 cents, the greedy algorithm would choose three coins: one 4-cent coin and two 1-cent coins whereas the optimal solution is two 3-cent coins.\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs56 \cf2 \
+Section 2: Testing your code\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b0\fs36 \cf2 We would like to see evidence that you have tested your functions in python shell, like we did in class. \'a0Do this by opening your assignment solution, i.e. opening \cf3 a1_xxxxxx.py,\cf2  with IDLE \'a0and then test each of your functions individually. Then copy and paste the python shell output into a text file called\'a0\cf3 a1_xxxxxx.txt
+\fs28 \cf2 \'a0
+\fs36 The contents of \cf3 a1_xxxxxx.txt
+\fs28 \cf2 \'a0
+\fs36 must have something like this in it:\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf2 >>> # testing Question 1\
+>>>\
+>>> mh2kh(5)\
+8.0467\
+>>>\
+>>> mh2kh(110.4)\
+177.67113600000002\
+>>>\
+>>>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 >>> # testing Question 2\
+>>>\
+>>> pythagorean_pair(2,2)\
+False\
+>>> pythagorean_pair(6,2)\
+False\
+>>> pythagorean_pair(6,8)\
+True\
+>>> pythagorean_pair(300,-400)\
+True\
+>>>\
+>>>\
+>>> # testing Question 3\
+>>>\
+>>> in_out(0,0,2.5)\
+Enter a number for the x coordinate of a query point: 0\
+Enter a number for the y coordinate of a query point: 1.2\
+True\
+>>> in_out(2.5,1,1)\
+Enter a number for the x coordinate of a query point: -1\
+Enter a number for the y coordinate of a query point: 1.5\
+False\
+>>> in_out(-2.5,1,2.1)\
+Enter a number for the x coordinate of a query point: -1\
+Enter a number for the y coordinate of a query point: 1.5\
+True\
+>>>\
+>>>\
+>>> # testing Question 4\
+>>>\
+>>> safe(93)\
+False\
+>>> safe(82)\
+True\
+>>> safe(29)\
+False\
+>>> safe(36)\
+False\
+>>> safe(9)\
+False\
+>>> safe(7)\
+True\
+>>>\
+>>>\
+>>> # testing Question 5\
+>>>\
+>>> quote_maker("Everything should be made as simple as possible but not simpler.", "Albert Einstein", 1933)\
+'In 1933, a person called Albert Einstein said: "Everything should be made as simple as possible but not simpler."'\
+>>>\
+>>> quote_maker("I would never die for my beliefs because I might be wrong.", "Bertrand Russell", 1951)\
+'In 1951, a person called Bertrand Russell said: "I would never die for my beliefs because I might be wrong."\
+>>>\
+>>>\
+>>> # testing Question 6\
+>>>\
+>>> quote_displayer()\
+Give me a quote: The best lack all conviction while the worst are full of passionate intensity.\
+Who said that? Bertrand Russell\
+What year did she/he say that? 1960\
+In 1960, a person called Bertrand Russell said: "The best lack all conviction while the worst are full of passionate intensity."\
+>>>\
+>>>\
+>>> # testing Question 7\
+>>>\
+>>> rps_winner()\
+What choice did player 1 make? \
+Type one of the following options: rock, paper, scissors: rock\
+What choice did player 2 make? \
+Type one of the following options: rock, paper, scissors: paper\
+Player 1 wins. That is False\
+It is a tie. That is not True\
+>>> rps_winner()\
+What choice did player 1 make? \
+Type one of the following options: rock, paper, scissors: paper\
+What choice did player 2 make? \
+Type one of the following options: rock, paper, scissors: rock\
+Player 1 wins. That is True\
+It is a tie. That is not True\
+>>> rps_winner()\
+What choice did player 1 make? \
+Type one of the following options: rock, paper, scissors: scissors\
+What choice did player 2 make? \
+Type one of the following options: rock, paper, scissors: paper\
+Player 1 wins. That is True\
+It is a tie. That is not True\
+>>> rps_winner()\
+What choice did player 1 make? \
+Type one of the following options: rock, paper, scissors: paper\
+What choice did player 2 make? \
+Type one of the following options: rock, paper, scissors: paper\
+Player 1 wins. That is False\
+It is a tie. That is not False\
+>>>\
+>>>\
+>>> # testing Question 8\
+>>> \
+>>> fun(7)\
+0.25\
+>> fun(20)\
+0.3404319590043982\
+>>> fun(999999997)\
+2.25\
+>>> fun(0.1)\
+0.12284042345856817\
+>>>\
+>>>\
+>>> # testing Question 9\
+>>>\
+>>> ascii_name_plaque("vida")\
+**************\
+*            *\
+*  __vida__  *\
+*            *\
+**************\
+>>> ascii_name_plaque("Captain Kara 'Starbuck' Thrace")\
+****************************************\
+*                                      *\
+*  __Captain Kara 'Starbuck' Thrace__  *\
+*                                      *\
+****************************************\
+>>> ascii_name_plaque("Seven of Nine")\
+***********************\
+*                     *\
+*  __Seven of Nine__  *\
+*                     *\
+***********************\
+>>>\
+>>>\
+>>> # testing Question 10\
+>>>\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qj\partightenfactor0
+\cf0 >>> draw_bike()\
+>>>\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 >>>\
+>>> # testing Question 11\
+>>>\
+>>> alogical(5.4)\
+3\
+>>> alogical(4)\
+2\
+>>> alogical(1000)\
+10\
+>>> alogical(4200231)\
+23\
+>>>\
+>>>\
+>>> # testing Question 12\
+>>>\
+>>> time_format(8,0)\
+\'938 o'clock"\
+>>> time_format(8,2)\
+"8 o'clock"\
+>>> time_format(8,59)\
+"9 o'clock"\
+>>> time_format(8,8)\
+"10 minutes past 8 o'clock"\
+>>> time_format(8,32)\
+'half past 8'\
+>>> time_format(8,48)\
+"10 minutes to 9 o'clock"\
+>>> time_format(17,42)\
+"20 minutes to 18 o'clock"\
+>>> time_format(23,13)\
+"15 minutes past 23 o'clock"\
+>>> time_format(23,42)\
+"20 minutes to 0 o'clock"\
+>>> time_format(0,29)\
+"half past 0 o'clock"\
+>>> time_format(11,59)\
+"12 o'clock"\
+>>> time_format(23,58)\
+"0 o'clock"\
+>>> time_format(0,1)\
+"0 o'clock"\
+>>> time_format(11,1)\
+"11 o'clock"\
+>>>\
+>>>\
+>>> # testing Question 13\
+>>>\
+>>> cad_cashier(10.58,11)\
+0.4\
+>>> cad_cashier(98.87,100)\
+1.15\
+>>> cad_cashier(10.58,15)\
+4.4\
+>>> cad_cashier(10.55,15)\
+4.45\
+>>> cad_cashier(10.54,15)\
+4.45\
+>>> cad_cashier(10.52,15)\
+4.5\
+>>> cad_cashier(10.50,15)\
+4.5\
+>>> \
+>>> \
+>>> # testing Question 14\
+>>>\
+>>> min_CAD_coins(10.58,11)\
+(0, 0, 1, 1, 1)\
+>>> min_CAD_coins(98.87,100)\
+(0, 1, 0, 1, 1)\
+>>> min_CAD_coins(10.58,15)\
+(2, 0, 1, 1, 1)\
+>>> min_CAD_coins(10.55,15)\
+(2, 0, 1, 2, 0)\
+>>> min_CAD_coins(10.54,15)\
+(2, 0, 1, 2, 0)\
+>>> min_CAD_coins(10.52,15)\
+(2, 0, 2, 0, 0)\
+>>> min_CAD_coins(10.50,15)\
+(2, 0, 2, 0, 0)\
+>>> min_CAD_coins(3, 20)\
+(8, 1, 0, 0, 0)}

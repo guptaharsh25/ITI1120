@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;}
+\margl1440\margr1440\vieww19140\viewh10980\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  RESTART: /Users/harshgupta/Desktop/uOttawa/Year 1/Semester 1/ITI1120/Assignments/Assignment - 1/a1_300042828.py \
+\
+>>> #testing Question 1\
+>>> mh2kh(4)\
+6.43736\
+>>> mh2kh(109.4)\
+176.06179600000002\
+\
+>>> #testing Question 2\
+>>> pythagorean_pair(3,4)\
+True\
+>>> pythagorean_pair(6,3)\
+False\
+>>> pythagorean_pair(-600, 800)\
+True\
+\
+>>> #testing Question 3\
+>>> in_out(0,0,3)\
+Enter the x coordinate: 1.2\
+Enter the y coordinate: 1.6\
+True\
+>>> in_out(2.7,1,1)\
+Enter the x coordinate: 3.4\
+Enter the y coordinate: 1.5\
+True\
+>>> in_out(3.4,1,1)\
+Enter the x coordinate: 5\
+Enter the y coordinate: 2.5\
+False\
+\
+>>> #testing Question 4\
+>>> safe(4)\
+True\
+>>> safe(29)\
+False\
+>>> safe(93)\
+False\
+>>> safe(7)\
+True\
+\
+>>> #testing Question 5\
+>>> quote_maker("That is lit", "OG", 2019)\
+'In 2019, a person called OG said: "That is lit"'\
+>>> quote_maker("No.","Harsh", "1676")\
+'In 1676, a person called Harsh said: "No."'\
+\
+>>> #testing Question 6\
+>>> quote_displayer()\
+Please enter a quote: I am awesome.\
+Who said this quote? Albert Einstein\
+When did this person say this quote? 1867\
+In 1867, a person called Albert Einstein said: "I am awesome."\
+\
+>>> #testing Question 7\
+>>> rps_winner()\
+What choice did player 1 make?\
+Type one of the following options - rock, paper or scissors: rock\
+What choice did player 2 make?\
+Type one of the following options - rock, paper or scissors: paper\
+Player 1 wins. That is False.\
+It is a tie. That is not True.\
+>>> rps_winner()\
+What choice did player 1 make?\
+Type one of the following options - rock, paper or scissors: paper\
+What choice did player 2 make?\
+Type one of the following options - rock, paper or scissors: rock\
+Player 1 wins. That is True.\
+It is a tie. That is not True.\
+>>> rps_winner()\
+What choice did player 1 make?\
+Type one of the following options - rock, paper or scissors: scissors\
+What choice did player 2 make?\
+Type one of the following options - rock, paper or scissors: scissors\
+Player 1 wins. That is False.\
+It is a tie. That is not False.\
+>>> rps_winner()\
+What choice did player 1 make?\
+Type one of the following options - rock, paper or scissors: scissors\
+What choice did player 2 make?\
+Type one of the following options - rock, paper or scissors: rock\
+Player 1 wins. That is False.\
+It is a tie. That is not True.\
+\
+>>> #testing Question 8\
+>>> fun(8)\
+0.26034817128955623\
+>>> fun(0.3)\
+0.12962848496947185\
+>>> fun(24)\
+0.3578409410397468\
+\
+>>> #testing Question 9\
+>>> ascii_name_plaque("harsh")\
+***************\
+*             *\
+*  __harsh__  *\
+*             *\
+***************\
+>>> ascii_name_plaque("This ITI 1120 Assignment was fairly easy")\
+**************************************************\
+*                                                *\
+*  __This ITI 1120 Assignment was fairly easy__  *\
+*                                                *\
+**************************************************\
+>>> ascii_name_plaque("7")\
+***********\
+*         *\
+*  __7__  *\
+*         *\
+***********\
+\
+>>> #testing Question 10\
+>>> my_fun_drawing()\
+\
+>>> #testing Question 11\
+>>> alogical(4.5)\
+3\
+>>> alogical(6)\
+3\
+>>> alogical(13857103957018370814012879589183487102)\
+124\
+>>> alogical(1)\
+0\
+\
+>>> #testing Question 12\
+>>> time_format(8,0)\
+"8 o'clock"\
+>>> time_format(4,53)\
+"5 minutes to 5 o'clock"\
+>>> time_format(6,27)\
+"25 past 6 o'clock"\
+>>> time_format(6,32)\
+"Half past 6 o'clock"\
+>>> time_format(7,59)\
+"8 o'clock"\
+>>> time_format(0,2)\
+"0 o'clock"\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 \expnd0\expndtw0\kerning0
+>>> time_format(17,42)\cb1 \uc0\u8232 \cb3 "20 minutes to 18 o'clock"\
+>>> time_format(23,13)\cb1 \uc0\u8232 \cb3 "15 minutes past 23 o'clock"\
+>>> time_format(23,42)\cb1 \uc0\u8232 \cb3 "20 minutes to 0 o'clock" 
+\f1 \cb1 \
+
+\f0 \
+>>> #testing Question 13\
+>>> cad_cashier(11.58, 12)\
+0.4\
+>>> cad_cashier(10.34, 67)\
+56.65\
+>>> cad_cashier(3.03, 4)\
+0.95\
+>>> cad_cashier(4.23, 7)\
+2.75\
+\
+>>> #testing Question 14\
+>>> min_CAD_coins(11.58, 12)\
+(0, 0, 1, 1, 1)\
+>>> min_CAD_coins(10.34, 67)\
+(28, 0, 2, 1, 1)\
+>>> min_CAD_coins(3.03, 4)\
+(0, 0, 3, 2, 0)\
+>>> min_CAD_coins(4.23, 7)\
+(1, 0, 3, 0, 0)}

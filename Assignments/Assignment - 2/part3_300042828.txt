@@ -1,0 +1,1 @@
+RESTART: /Users/harshgupta/Desktop/uOttawa/Year 1/Semester 1/ITI1120/Assignments/Assignment - 2/part2_300042828.py>>> # Testing 3.1>>> callfunc(catch, (2,0,0))(-1.0, -1.0)>>> callfunc(sum3,(1,4,9))14
